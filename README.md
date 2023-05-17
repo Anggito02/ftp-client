@@ -41,7 +41,9 @@ Pada window konfigurasi, pilih Users (di dalam grup Rights management)
 1. Masukkan Host, Username, dan Password sesuai yang sudah diisikan pada user di fileZilla Server
 2. Isi port dengan 21 atau dikosongkan untuk koneksi FTP
 3. Klik Quickconnect
-4. Jika sudah bisa berjalan dengan lancar, kode ![server.py](./server.py) dapat dijalankan
+4. Jika sudah bisa berjalan dengan lancar, kode [server.py](./server.py) dapat dijalankan
 
 ## NOTE !
-Sesuaikan `USERNAME` dan `PASSWORD` pada method `connect_server()` dengan User yang ditambahkan pada fileZilla Server
+1. Sesuaikan `USERNAME` dan `PASSWORD` pada method `connect_server()` dengan User yang ditambahkan pada fileZilla Server
+2. Semua file yang dibuat, dihapus, dan diubah akan berada pada Native Path pada komputer lokal
+3. Dalam konteks ini, folder [home](./home/) merupakan Native Path dari Virtual Path FTP server yang telah dibuat
